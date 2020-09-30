@@ -1,7 +1,7 @@
 # 374Grade
 Quick project to estimate a user's grade in CS374.
 # Setup:
-Just clone this repository and run "make". Note that g++ must be installed for compilation to work. Also note that this is intended for Linux/Unix operating systems; if you're on Windows, I would recommend doing everything through WSL.
+Just clone this repository and run ``make``. Note that g++ must be installed for compilation to work. Also note that this is intended for Linux/Unix operating systems; if you're on Windows, I would recommend doing everything through WSL.
 # Usage:
 Copy [this google sheet](https://docs.google.com/spreadsheets/d/1_PtzEK_XwiY1K-ACZt27hoABpbF_mqrT8T4HYsznTqU/edit?usp=sharing) and fill blank fields corresponding to each problem and exam for which you have results. Then download as a csv, and run:
 ``grade_estimate [PATH TO CSV]``. As an example, your command should look something like ``grade_estimate sheet.csv``.
